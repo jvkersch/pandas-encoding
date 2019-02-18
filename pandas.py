@@ -59,7 +59,7 @@ def getregentry():
 
 def search_function(name):
     if name == 'pandas':
-        getregentry()
+        return getregentry()
 
 
 codecs.register(search_function)
